@@ -1,0 +1,92 @@
+[
+    {
+      "_id": "65a91fee68576587b3ab7aa1",
+      "index": 0,
+      "guid": "f4e26a01-bb4c-4477-93b7-8e399da8643c",
+      "isActive": true,
+      "balance": "$1,146.25",
+      "picture": "http://placehold.it/32x32",
+      "age": 31,
+      "eyeColor": "blue",
+      "name": "Rita Elliott",
+      "gender": "female",
+      "company": "IMPERIUM",
+      "email": "ritaelliott@imperium.com",
+      "phone": "+1 (835) 526-2886",
+      "address": "587 Bedford Place, Springhill, Pennsylvania, 289",
+      "about": "Sint ea cillum fugiat nostrud exercitation adipisicing quis esse veniam tempor aliquip reprehenderit ipsum minim. Duis sunt ullamco do non. Laboris officia est Lorem pariatur aute excepteur officia cillum proident tempor commodo magna deserunt Lorem. Sint laboris laborum commodo cupidatat dolore adipisicing culpa amet. Nulla ad pariatur pariatur esse dolor dolor ullamco non anim esse nisi cillum.\r\n",
+      "registered": "2018-04-05T12:34:52 +05:00",
+      "latitude": -13.515649,
+      "longitude": -61.415535,
+      "tags": [
+        "est",
+        "consequat",
+        "voluptate",
+        "in",
+        "mollit",
+        "pariatur",
+        "velit"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Janie Byers"
+        },
+        {
+          "id": 1,
+          "name": "Bowers Harper"
+        },
+        {
+          "id": 2,
+            "name": "Dixon Page"
+          }
+      ],
+      "greeting": "Hello, Rita Elliott! You have 1 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "65a91fee6358989762dcb207",
+      "index": 1,
+      "guid": "b4908048-01d1-4910-883e-75512a41f872",
+      "isActive": false,
+      "balance": "$1,217.76",
+      "picture": "http://placehold.it/32x32",
+      "age": 24,
+      "eyeColor": "brown",
+      "name": "Jeannine Valencia",
+      "gender": "Jeannine Valencia",
+      "company": "QIAO",
+      "email": "jeanninevalencia@qiao.com",
+      "phone": "+1 (818) 577-2234",
+      "address": "612 Brigham Street, Brookfield, Massachusetts, 2424",
+      "about": "Eu consequat ipsum amet reprehenderit reprehenderit aliqua eu. Non anim ullamco exercitation cillum cupidatat eiusmod sint officia cupidatat id dolor officia dolore ea. Culpa deserunt adipisicing officia sit in sit. Culpa nostrud laboris commodo labore irure. Pariatur velit aliqua amet voluptate do cupidatat aliquip amet veniam esse pariatur labore. Eu occaecat incididunt nulla incididunt. Adipisicing consectetur reprehenderit ex et ullamco.\r\n",
+      "registered": "2021-11-04T08:20:46 +05:00",
+      "latitude": 24.434721,
+      "longitude": -158.88911,
+      "tags": [
+        "eu",
+        "dolor",
+        "pariatur",
+        "eiusmod",
+        "sunt",
+        "velit",
+        "non"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Bartlett Valenzuela"
+        },
+        {
+          "id": 1,
+          "name": "Shannon Lowery"
+        },
+        {
+          "id": 2,
+          "name": "Salazar Mcguire"
+        }
+      ],
+      "greeting": "Hello, Jeannine Valencia! You have 1 unread messages.",
+      "favoriteFruit": "strawberry"
+    }
+  ]
