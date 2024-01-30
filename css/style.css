@@ -1,5 +1,5 @@
 body{
-    background-color: teal;
+    /* background-color: teal; */
 }
 
 .caja{
@@ -53,4 +53,51 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Yoyo */
+.niño{
+    background-image: url(../storage/img/nino-yoyo.png);
+    height: 45vh;
+    width: 15vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.nada{
+    width: 60px;
+    height: 34vh;
+    position: absolute;
+    right: 0;
+    bottom:  0px;
+    overflow: hidden;
+}
+
+.yoyo{
+    overflow: hidden;
+    background-image: url(../storage/img/yoyo.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 25vh;
+    position: relative;
+    right: 0;
+    top: -100px;
+    transition: top 2s ease-in-out 0.5s;
+
+}
+
+.yoyo:hover{
+    top: 20px;
+}
+
+/* Paisaje */
+
+.anim{
+    height: 60vh;
+    width: auto;
+    border: 1px solid red;
+    background-image: url(../storage/img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
 }
