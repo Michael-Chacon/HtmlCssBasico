@@ -1,3 +1,9 @@
+## Todos mis apuntes se pueden encontrar en el siguiente enlace: 
+
+https://fierce-cirrus-de1.notion.site/CSS-eaeeaf51fdc94c0a8b366c66b8205e3c?pvs=4
+
+
+
 # HTML Semántica
 
 `div` y `span`  sirven para dividir el contenido, son etiquetas *no* semánticas, el `span` es una etiqueta para agrupar el contenido en línea y el div para agrupar el contenido en bloque.

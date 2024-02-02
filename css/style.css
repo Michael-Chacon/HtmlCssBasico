@@ -99,9 +99,9 @@ body{
     background-image: url(../storage/img/background.png);
     background-position: center;
     background-repeat: no-repeat;
-    transition: border, 1s ease 0.5s;
     overflow: hidden;
     position: relative;
+    transition: border, 1s ease 0.5s;
 }
 
 .nube{
@@ -161,5 +161,25 @@ body{
 .anim:hover > .flor{
     transform: translateY(-20vh);
 }
+
+.sol{
+    background-image: url(../storage/img/sun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 70vh;
+    opacity: 0.5;
+    border: 2px solid yellow;
+}
+
+.anim:hover > .sol{
+    opacity: 0; 
+    transition: transform 3s ease 7s;
+    transform: translateY(-20vh);
+}
+
 
 
