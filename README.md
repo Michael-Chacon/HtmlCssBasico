@@ -549,3 +549,79 @@ El contexto de apilamiento se crea cuando se cumplen ciertas condiciones, como t
 Al establecer el contexto de apilamiento, se puede controlar el orden en el que los elementos se superponen y se muestran en pantalla. Esto es útil para crear diseños complejos y controlar la interacción visual de los elementos.
 
 Espero que esta explicación te sea útil. Si tienes alguna otra pregunta, no dudes en hacerla.
+
+
+
+## Animaciones 
+
+- ocultar el menú: 
+
+  `transform: translateX(-300%);
+
+  transition: transform 0.3s;`
+
+- Mostrar el menú: 
+
+  `transform: translateX(0);`
+
+### Sombras
+
+`box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);`
+
+### Scrollbar
+
+`html{
+
+  scroll-behavior: smooth;
+
+  scroll-padding: 10vh;
+
+}`
+
+
+
+# Grid
+
+## Áreas
+
+Mediante los **Grids por área** es posible indicar el nombre y posición concreta de cada área de una cuadrícula. Para ello utilizaremos la propiedad `grid-template-areas` en nuestro contenedor padre, donde debemos especificar el orden de las áreas en la cuadrícula. Posteriormente, en cada ítem hijo, utilizamos la propiedad `grid-area` para indicar el nombre del área del que se trata y que el navegador pueda identificarlas:
+
+| Propiedad             | Descripción                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| `grid-template-areas` | Indica la disposición de las áreas en el grid. Cada texto entre comillas simboliza una fila. |
+| `grid-area`           | Indica el nombre del área. Se usa sobre ítems hijos del grid. |
+
+De esta forma, es muy sencillo crear una cuadrícula altamente personalizada en apenas unas cuantas líneas de CSS, con mucha flexibilidad en la disposición y posición de cada área. Veamos un ejemplo:
+
+
+
+`.container {
+  display: grid;
+  grid-template-areas: "head head"
+                       "menu main"
+                       "foot foot";
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 200px 100px;
+}
+
+.item-1 { grid-area: head; background: blue; }
+.item-2 { grid-area: menu; background: red; }
+.item-3 { grid-area: main; background: green; }
+.item-4 { grid-area: foot; background: orange; }`
+
+### Fuentes
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+font-family: 'Fira Code', monospace;
+
+### Iconos
+
+<link
+
+   rel="stylesheet"
+
+   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+
+  />
